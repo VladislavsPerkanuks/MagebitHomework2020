@@ -1,10 +1,9 @@
-@@ -0,0 +1,66 @@
 -- phpMyAdmin SQL Dump
 -- version 5.0.2
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Generation Time: Dec 02, 2020 at 07:41 AM
+-- Generation Time: Dec 03, 2020 at 07:06 PM
 -- Server version: 8.0.21
 -- PHP Version: 7.4.9
 
@@ -19,7 +18,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `vladislavs_homework`
+-- Database: `magebit`
 --
 
 -- --------------------------------------------------------
@@ -35,7 +34,7 @@ CREATE TABLE IF NOT EXISTS `users_email` (
   `date` date DEFAULT NULL,
   PRIMARY KEY (`id`),
   UNIQUE KEY `email` (`email`)
-) ENGINE=MyISAM AUTO_INCREMENT=23 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=MyISAM AUTO_INCREMENT=25 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 --
 -- Dumping data for table `users_email`
@@ -59,7 +58,9 @@ INSERT INTO `users_email` (`id`, `email`, `date`) VALUES
 (20, 'vladperk@outlook.com', '2020-12-02'),
 (19, 'vladislavs@yahoo.com', '2020-12-02'),
 (21, 'yeah@kl.lv', '2020-12-02'),
-(22, 'petrova.vasilenko@yahoo.com', '2020-12-02');
+(22, 'petrova.vasilenko@yahoo.com', '2020-12-02'),
+(23, 'vapeNation@kekw.lv', '2020-12-02'),
+(24, 'fadsa@asd.lv', '2020-12-02');
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
